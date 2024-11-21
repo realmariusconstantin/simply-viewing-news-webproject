@@ -1,22 +1,36 @@
 <template>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Signup Page</title>
+  </head>
+  <body>
   <div>
-    <Navbar />
     <SignupForm />
-    <Footer />
+
   </div>
+  </body>
+
+
+  </html>
 </template>
 
 <script>
-import Footer from '../components/Organisms/Footer.vue'
+
 import SignupForm from '../components/Molecules/Signup_Form.vue'
-import Navbar from '../components/Organisms/Navbar.vue'
+// import Navbar from '../components/Organisms/Navbar.vue'
 
 export default {
   name: 'SignupPage',
   components: {
-    Footer,
     SignupForm,
-    Navbar,
+    // Navbar,
   },
 }
 </script>
+
+<style>
+
+
+</style>
