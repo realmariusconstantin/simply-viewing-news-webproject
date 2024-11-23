@@ -1,20 +1,4 @@
 /* eslint-disable */
-<script>
-
-import {defineComponent} from "vue";
-import ContinueWhite from "@/components/atoms/ContinueWhite.vue";
-import LoginWhite from "@/components/atoms/LoginWhite.vue";
-// import SignIn from "@/components/atoms/SignIn.vue";
-
-export default defineComponent({
-  components: {
-    LoginWhite,
-    // SignIn,
-    ContinueWhite
-  }
-})
-</script>
-
 <template>
   <form class="signup-form">
     <h1>SIGN UP</h1>
@@ -30,6 +14,22 @@ export default defineComponent({
   </form>
 
 </template>
+
+<script>
+
+import {defineComponent} from "vue";
+import ContinueWhite from "@/components/atoms/ContinueWhite.vue";
+import LoginWhite from "@/components/atoms/LoginWhite.vue";
+// import SignIn from "@/components/atoms/SignIn.vue";
+
+export default defineComponent({
+  components: {
+    LoginWhite,
+    // SignIn,
+    ContinueWhite
+  }
+})
+</script>
 
 <style >
 body {

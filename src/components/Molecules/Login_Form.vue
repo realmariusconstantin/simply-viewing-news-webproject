@@ -1,5 +1,3 @@
-
-
 <template>
   <form class="login-form">
     <h2>LOG IN</h2>
