@@ -1,11 +1,11 @@
 <template>
-  <html lang="en">
+  <html class = "Signup-Page" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Signup Page</title>
   </head>
-  <body>
+  <body class = "Signup-Page">
   <div>
     <SignupForm />
 
@@ -19,18 +19,19 @@
 <script>
 
 import SignupForm from '../components/Molecules/Signup_Form.vue'
-// import Navbar from '../components/Organisms/Navbar.vue'
+
 
 export default {
   name: 'SignupPage',
   components: {
     SignupForm,
-    // Navbar,
   },
 }
 </script>
 
 <style>
-
+.Signup-Page{
+  background-color:white;
+}
 
 </style>
