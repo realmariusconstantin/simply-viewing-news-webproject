@@ -23,7 +23,7 @@ export default {
 
 <style>
 #app {
-  background-color:white;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

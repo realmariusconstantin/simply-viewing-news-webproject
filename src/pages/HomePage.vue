@@ -6,21 +6,20 @@
       <title>Home Page</title>
     </head>
     <body>
-      <Navbar />
       <h1>Welcome to the Home Page</h1>
+      <div >
+        <a href="#" target = "_blank"><img src="src/assets/Icons/FooterMedia/Facebook.png"></a>
+      </div>
     </body>
   </html>
 </template>
 
 <script>
-import Navbar from '../components/Organisms/Navbar.vue'
-//import Footer from '../components/Organisms/Footer.vue'
 
 export default {
   name: 'HomePage',
   components: {
-    Navbar,
-    //Footer,
+
   },
 }
 </script>

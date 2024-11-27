@@ -13,11 +13,11 @@ const routes = [
     { path: '/signup', component: SignupPage }, // Signup page
     { path: '/article', component: Article }, // Article page
     { path: '/admin', component: Admin }, // Admin page
-]
+];
 
 const router = createRouter({
     history: createWebHistory(),
     routes,
-})
+});
 
-export default router
+export default router;
