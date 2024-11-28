@@ -44,10 +44,12 @@ export default {
   display: none;
   position: absolute;
   background-color: #000000;
+  border-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 4px;
+
 }
 
 .dropdown-content a {
@@ -68,5 +70,6 @@ export default {
 
 .dropdown-content.active {
   display: block;
+ border-color:white;
 }
 </style>

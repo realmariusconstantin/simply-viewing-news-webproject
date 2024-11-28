@@ -28,10 +28,3 @@ export default {
   },
 }
 </script>
-
-<style>
-.Signup-Page{
-  background-color:white;
-}
-
-</style>

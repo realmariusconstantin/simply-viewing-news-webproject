@@ -23,7 +23,7 @@ export default {
 
 <style>
 #app {
-  background-color: #ffffff;
+  background-color: #000000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -43,6 +43,6 @@ footer {
   text-align: center;
   padding: 10px;
   background-color: #000000;
-  color: white;
+  color: #ffffff;
 }
 </style>

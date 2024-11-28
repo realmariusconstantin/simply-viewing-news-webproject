@@ -34,14 +34,14 @@ export default defineComponent({
 <style >
 body {
   background-color: black;
-  color: white;
+  color: #ffffff;
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 .form-group{
-  background-color: black;
+  background-color: #000000;
 }
 
 .signup-form {
@@ -49,8 +49,9 @@ body {
  height: 600px;
   margin: 50px auto;
   padding: 20px;
-  background-color: black;
-  border: 1px solid #000000;
+  background-color: #000000;
+  outline: 1px solid #ffffff;
+  box-shadow: white 0px 0px 10px;
 }
 
 .signup-form h1 {

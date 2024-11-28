@@ -4,11 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Login Page</title>
   <body>
-  <div>
+<div class="login-container">
 <login-form />
+</div>
 
-
-  </div>
   </body>
   </html>
 </template>
@@ -26,7 +25,5 @@ export default {
 </script>
 
 <style>
-body, html{
-  background-color:black;
-}
+
 </style>

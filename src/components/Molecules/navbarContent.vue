@@ -1,20 +1,20 @@
 <template>
   <nav>
-<MenuWhite />
-    <div class="signup">
-      <router-link to="/signup">
-        <img src="@/assets/Icons/others/Sign%20in.png" alt="signup" />
-      </router-link>
-    </div>
-
+    <MenuWhite/>
+    <LogoIcon/>
+    <SignIn/>
   </nav>
 </template>
 
 <script>
 import MenuWhite from "@/components/atoms/MenuWhite.vue";
+import LogoIcon from "@/components/atoms/LogoIcon.vue";
+import SignIn from "@/components/atoms/SignIn.vue";
 
 export default {
   components: {
+    SignIn,
+    LogoIcon,
     MenuWhite,
   },
 };
@@ -26,13 +26,7 @@ export default {
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
   gap: 20px;
+  align-content: center;
 }
-
-//Signup button styles
-.signup img {
-  cursor: pointer;
-}
-
 </style>

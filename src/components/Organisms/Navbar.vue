@@ -20,6 +20,7 @@ export default {
     justify-content: space-between;
     padding: 1rem;
     background-color: #000000;
+    align-items:center;
   }
 
 </style>

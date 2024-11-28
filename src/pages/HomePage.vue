@@ -1,27 +1,66 @@
 <template>
   <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Home Page</title>
-    </head>
-    <body>
-      <h1>Welcome to the Home Page</h1>
-      <div >
-        <a href="#" target = "_blank"><img src="src/assets/Icons/FooterMedia/Facebook.png"></a>
-      </div>
-    </body>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Home Page</title>
+  </head>
+  <div class="news-container">
+    <div class="news-right">
+     <LeftMedia/>
+
+    </div>
+    <div class="news-middle">
+      <MiddleMedia/>
+
+    </div>
+
+    <div class="news-left">
+      <RightMedia/>
+    </div>
+  </div>
+
+
   </html>
 </template>
 
 <script>
 
+import RightMedia from "@/components/Molecules/RightMedia.vue";
+import MiddleMedia from "@/components/Molecules/MiddleMedia.vue";
+import LeftMedia from "@/components/Molecules/LeftMedia.vue";
+
 export default {
   name: 'HomePage',
   components: {
+    LeftMedia,
+    MiddleMedia,
+    RightMedia
 
   },
 }
 </script>
 <style>
+.news-container {
+background-color:  white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  align-content: center;
+  margin: 50px;
+  box-shadow: #cccccc 0px 0px 10px;
+}
+
+.news-right {
+  outline: 1px solid black;
+}
+
+.news-middle {
+  outline: 1px solid black;
+
+}
+
+.news-left {
+  outline: 1px solid black;
+}
 </style>

@@ -1,14 +1,19 @@
 <template>
   <form class="login-form">
-    <h2>LOG IN</h2>
+    <h1>LOG IN</h1>
     <div class="form-group">
       <input type="email" name="email" placeholder="Email Address" required>
       <input type="password" name="password" placeholder="Password" required>
+      <p class="forgot-password">forgot password?</p>
     </div>
-    <p class="forgot-password">forgot password?</p>
-    <div class="continue"><ContinueWhite /></div>
+
+    <div class="continue">
+      <ContinueWhite/>
+    </div>
     <p>Don’t have an account?</p>
-  <div class="sign"><SignIn /></div>
+    <div class="sign">
+      <SignIn/>
+    </div>
   </form>
 
 
@@ -43,15 +48,20 @@ body {
   margin: 50px auto;
   padding: 20px;
   background-color: #000000;
-  border: 1px solid #ccc;
+  border: 1px solid #eaeaea;
   text-align: center;
-}
 
-.login-form h2 {
+
+
+
+}
+.login-form h1 {
   font-size: 24px;
   letter-spacing: 2px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  border-bottom-color: white;
+  border-bottom-style: solid;
 }
 
 .login-form .form-group {
@@ -83,20 +93,19 @@ body {
 }
 
 .forgot-password {
-
+  top: 75%;
+  left: 69%;
   cursor: pointer;
-  left:885px;
-  bottom: 500px;
-  position : absolute;
-  display: inline-block;
+  position: absolute;
   color: #ffffff;
   text-decoration: underline;
 }
-.continue{
+
+.continue {
   margin-top: 50px;
 }
 
-.sign{
+.sign {
   margin-top: 50px;
 }
 </style>
