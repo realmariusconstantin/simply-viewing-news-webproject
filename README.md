@@ -1,22 +1,27 @@
+
 # News Website Project - Vue.js
+
 ## Description
-this is a simple and unique version of a news website, like cnn or bbc. 
-It is a project for the course "Computing Mobile & Web" at the Technological University of Shannon, Ireland..
+This is a simple and unique version of a news website, similar to platforms like CNN or BBC.  
+It is developed as part of the "Computing Mobile & Web" course at the Technological University of Shannon, Ireland.
 
 ## Features
-- The website has a homepage, a signup page, a login page, a footer and navbar that are routed to other pages.
-- they are under construction at the moment
+- **Homepage**: Displays a central hub for news articles and categories.
+- **Signup Page**: Allows users to create an account.
+- **Login Page**: Enables users to log in securely.
+- **Footer and Navbar**: Includes navigation and footer components, linking to other pages.
+- **Routing**: Pages are connected via Vue Router for smooth navigation.
 
+## Project Setup
 
-## Project setup
-```
+### Install Dependencies
+To install the required dependencies, run the following command:
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+### Run the Project for Development
+To start a local development server with hot-reloading, run:
+```bash
 npm run serve
 ```
-
-
-
