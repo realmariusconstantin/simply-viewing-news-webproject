@@ -1,7 +1,11 @@
 <template>
+  <!-- Navigation bar container -->
   <nav>
+    <!-- Menu icon component -->
     <MenuWhite/>
+    <!-- Logo icon component -->
     <LogoIcon/>
+    <!-- Sign in button component -->
     <SignIn/>
   </nav>
 </template>
@@ -13,16 +17,15 @@ import SignIn from "@/components/atoms/SignIn.vue";
 
 export default {
   components: {
-    SignIn,
-    LogoIcon,
     MenuWhite,
+    LogoIcon,
+    SignIn,
   },
 };
 </script>
 
 <style>
-
-//Navigation styles
+/* Navigation bar styles */
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

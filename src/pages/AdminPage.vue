@@ -7,6 +7,7 @@
         </button>
         <p>NAME:</p>
       </div>
+<!--  Side Panel Buttons-->
       <div class="sidePanelButtons">
         <div>
           <button>
@@ -35,12 +36,14 @@
         </div>
       </div>
     </aside>
+<!--  Admin Page-->
     <div class="panel">
       <div class="Header">
         <h1>Admin Page</h1>
       </div>
       <div class="AdminEdit">
         <table>
+<!--          TABLE-->
           <tr>
             <th>Article Title</th>
             <th>Author</th>
@@ -52,6 +55,7 @@
             <td>Author 1</td>
             <td>01/01/2021</td>
             <td>
+<!--                Edit and Delete Buttons-->
               <button class="edit-btn">Edit</button>
               <button class="delete-btn">Delete</button>
             </td>
@@ -61,6 +65,7 @@
             <td>Author 2</td>
             <td>01/01/2021</td>
             <td>
+<!--                Edit and Delete Buttons-->
               <button class="edit-btn">Edit</button>
               <button class="delete-btn">Delete</button>
             </td>
@@ -70,6 +75,7 @@
             <td>Author 3</td>
             <td>01/01/2021</td>
             <td>
+<!--                Edit and Delete Buttons-->
               <button class="edit-btn">Edit</button>
               <button class="delete-btn">Delete</button>
             </td>
