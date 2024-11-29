@@ -7,7 +7,7 @@
   </head>
   <div class="news-container">
     <div class="news-right">
-     <LeftMedia/>
+      <LeftMedia/>
 
     </div>
     <div class="news-middle">
@@ -19,8 +19,6 @@
       <RightMedia/>
     </div>
   </div>
-
-
   </html>
 </template>
 
@@ -42,7 +40,7 @@ export default {
 </script>
 <style>
 .news-container {
-background-color:  white;
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
@@ -51,16 +49,5 @@ background-color:  white;
   box-shadow: #cccccc 0px 0px 10px;
 }
 
-.news-right {
-  outline: 1px solid black;
-}
 
-.news-middle {
-  outline: 1px solid black;
-
-}
-
-.news-left {
-  outline: 1px solid black;
-}
 </style>

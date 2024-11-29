@@ -1,18 +1,18 @@
 <template>
-<div class="middlemedia">
-  <div class="top">
-    <div class="M-content">
-    <img src="https://via.placeholder.com/150" alt="placeholder" />
-    <p>LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM</p>
+  <div class="middlemedia">
+    <div class="top">
+      <div class="M-content">
+        <img src="https://via.placeholder.com/150" alt="placeholder" />
+        <p>LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM</p>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="M-content">
+        <img src="https://via.placeholder.com/150" alt="placeholder" />
+        <p>LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM</p>
+      </div>
     </div>
   </div>
-  <div class="bottom">
-    <div class="M-content">
-    <img src="https://via.placeholder.com/150" alt="placeholder" />
-    <p>LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM LOREL PISUM</p>
-      </div>
-  </div>
-</div>
 </template>
 
 <style>
